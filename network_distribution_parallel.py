@@ -72,9 +72,9 @@ except OSError as error:
     print(f"Directory {out_path} can not be created")
     exit()
 
- if logarithm_degree:
+if logarithm_degree:
      output_file_path = os.path.join(out_path, distr+"_parameters_Log_total_degree.json")
- else:
+else:
      output_file_path = os.path.join(out_path, distr+"_parameters_total_degree.json")
 
 list_of_file_paths = [os.path.join(path, x) for x in files]
