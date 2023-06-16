@@ -1,5 +1,5 @@
 <center><h1> network_distribution_fitter </h1> </center>
-This is a python program fits a distribution provided by the user to 
+This python program fits a distribution provided by the user to 
 the total degree or (Log(total_degree)) of the nodes of a network in order
 to obtain the distribution's parameters that best fit the data.
 The program uses fitter to obtain the best fit. 
