@@ -7,7 +7,7 @@ The program uses fitter to obtain the best fit.
 Input: The path to the .csv files with the information of source, target and weight of the edges of the network.
 | **source** | **target** | **w** |
 |------------|------------|-------|
-| $node_i$   | $node_j$   |$w_{ij}|
+| $node_i$   | $node_j$   |$w_{ij}$|
 Output: A directory with .json file. The keys of this json file are the names of the .csv files and
 the value of each key is a tuple with the parameters of the distribution with the best fit for the data. 
 
