@@ -1,4 +1,5 @@
 <center><h1> network_distribution_fitter </h1> </center>
+
 This python program fits a distribution provided by the user to 
 the total degree or (Log(total_degree)) of the nodes of a network in order
 to obtain the distribution's parameters that best fit the data.
@@ -8,6 +9,8 @@ Input: The path to the .csv files with the information of source, target and wei
 | **source** | **target** | **w** |
 |------------|------------|-------|
 | $node_i$   | $node_j$   |$w_{ij}$|
+
+
 Output: A directory with .json file. The keys of this json file are the names of the .csv files and
 the value of each key is a tuple with the parameters of the distribution with the best fit for the data. 
 
