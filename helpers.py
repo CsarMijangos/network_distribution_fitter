@@ -45,3 +45,4 @@ def obtain_data(csv_file, log_degree = True):
     else:
         return df_grados["total_degree"]
 
+
