@@ -11,7 +11,7 @@ The program uses fitter to obtain the best fit.
 | $node_i$   | $node_j$   |$w_{ij}$|
 
 
-**Output:** A directory with .json file. The keys of this json file are the names of the .csv files and
+**Output:** A directory with .json file. The keys of this json file are the names of the .csv files of the input and
 the value of each key is a tuple with the parameters of the distribution with the best fit for the data. 
 
 The command to run:
