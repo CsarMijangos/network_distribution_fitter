@@ -74,6 +74,6 @@ with open(output_file_path, "w") as outfile:
     json.dump(parameters, outfile)
 
     
-print(f"The parameters have been obtained successefully.")
+print(f"The parameters have been obtained successesfully.")
 
 
