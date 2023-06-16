@@ -4,10 +4,10 @@ the total degree or (Log(total_degree)) of the nodes of a network in order
 to obtain the distribution's parameters that best fit the data.
 The program uses fitter to obtain the best fit. 
 
-Input: The .csv files with the information of source target and weight of the edges of the network.
+Input: The path to the .csv files with the information of source, target and weight of the edges of the network.
 | **source** | **target** | **w** |
 |------------|------------|-------|
-
+| $node_i$   | $node_j$   |$w_{ij}|
 Output: A directory with .json file. The keys of this json file are the names of the .csv files and
 the value of each key is a tuple with the parameters of the distribution with the best fit for the data. 
 
@@ -22,4 +22,6 @@ total_degree is passed to the fitter. Default is y.
 powerlognorm.
 - --out :  [Optional argument] The path to the directory for the output directory. Default is the same as --path.
 
+
+The list of distributions available to the moment is: ["powerlognorm", "beta", "gamma","chi2"]
 
