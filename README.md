@@ -27,5 +27,5 @@ powerlognorm.
 - --out :  [Optional argument] The path to the directory for the output directory. Default is the same as --path.
 
 
-The list of distributions available to the moment is: ["powerlognorm", "beta", "gamma","chi2"] but this can be extended easily
+The list of distributions available to the moment is: ["powerlognorm", "beta", "gamma","chi2", "weibull_min"] but this can be extended easily
 to the complete list of distributions available in scipy.stats.

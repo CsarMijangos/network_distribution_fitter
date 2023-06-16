@@ -6,7 +6,7 @@ import seaborn as sns
 from fitter import Fitter
 from scipy.stats import *
 
-DISTRIBUTIONS = ["powerlognorm", "beta", "gamma","chi2"]
+DISTRIBUTIONS = ["powerlognorm", "beta", "gamma","chi2", "weibull_min"]
 
 def fitter(data, distrib="powerlognorm"):
     ''' This function returns a tuple with the parameters of the distrib
