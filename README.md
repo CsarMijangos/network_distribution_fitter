@@ -12,7 +12,8 @@ Output: A directory with .json file. The keys of this json file are the names of
 the value of each key is a tuple with the parameters of the distribution with the best fit for the data. 
 
 The command to run:
-**python network_distribution_fitter.py --path <path_to_the_directory_with_the_csv_files>**
+
+**python network_distribution.py --path <path_to_the_directory_with_the_csv_files>**
 
 The complete list of flags that we can pass are:
 - --path : [Obligatory argument] The path to the input .csv files
